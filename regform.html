@@ -1,0 +1,27 @@
+ <htmL>
+    <head>
+        <title>REGISTRATION FORM</title>
+        <style>
+         .reg{text-align: center;color: rgb(0, 0, 0);font-style: italic;}
+         .class1{font-style: unset;padding-left: 38%;}
+         *{background-color: rgb(239, 212, 179);}
+        </style>
+    </head>
+    <body>
+        <form action="reserve.php" method="post">
+        <h1 class="reg">REGISTRATION FORM</h1>
+        <div class="class1"><label>Name: </label>
+        <input type="text" name="name" placeholder="Enter your name"><br><br>
+        <label>CHECK IN: </label>
+        <input type="date" name="datein"><br><br>
+        <label>CHECK OUT: </label>
+        <input type="date" name="dateout"><br><br>
+        <label>ADULT COUNT : </label>
+        <input type="number" name="adult" placeholder="Enter the count here"><br><br>
+        <label>CHILDREN COUNT : </label>
+        <input type="number" name="children" placeholder="Enter the count here"><br><br>
+        <label>TOTAL NO OF PERSONS : </label>
+        <input type="number" name="total" placeholder="Enter the count here"><br><br>
+        <input type="submit" name="submit" value="submit"><br><br>
+        </form></body>
+</htmL>
